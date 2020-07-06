@@ -12,7 +12,7 @@ checkout scm
 
 stage('Build') {
 steps {
-sh 'mvn clean install'
+bat 'mvn clean install'
 }
 }
 }
